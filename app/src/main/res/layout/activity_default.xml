@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:background="#DCDCDC"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_searchSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="215dp"
+            android:src="@drawable/search_sms"/>
+
+        <ImageView
+            android:id="@+id/img_writeSMS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/write_sms" />
+
+        <ImageView
+            android:id="@+id/img_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/setting" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_not_default_app"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFE4C4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make App Default"
+            android:textColor="#FF0000" />
+
+        <TextView
+            android:id="@+id/tv_change_default_app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="Default"
+            android:textColor="#008000" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_msg"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/ll_not_default_app"
+
+        android:layout_height="450dp" />
+
+    <RelativeLayout
+        android:id="@+id/fl_delete"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/last"
+        android:background="#FFFFF0"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/tv_DeleteMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Delete Messages"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#FFE4C4"
+        android:id="@+id/last"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+
+            android:text="In order to delete messages make sure your app is set as default"
+            android:textColor="#008000" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MenuActivity"
+    android:background="#323859">
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/Messages"
+        android:layout_x="50dp"
+        android:layout_y="100dp"
+        android:background="@drawable/messages_button"
+        android:textColor="#ffffff" />
+
+
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/Contacts"
+        android:layout_x="200dp"
+        android:layout_y="100dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/contacts_button" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/Files"
+        android:layout_x="50dp"
+        android:layout_y="250dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/files_button" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/Settings"
+        android:layout_x="200dp"
+        android:layout_y="250dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/settings_button_1" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/LogOut"
+        android:layout_x="50dp"
+        android:layout_y="550dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/logout_button" />
+</AbsoluteLayout>

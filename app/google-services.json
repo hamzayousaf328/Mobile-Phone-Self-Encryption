@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "615211570782",
+    "firebase_url": "https://mobile-phone-self-encryption.firebaseio.com",
+    "project_id": "mobile-phone-self-encryption",
+    "storage_bucket": "mobile-phone-self-encryption.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615211570782:android:0b47700dcebc8b70",
+        "android_client_info": {
+          "package_name": "com.example.yawarkhan.mobileselfencryption"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615211570782-174s4d5n7f48n8gatsct4s95fuivhvke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA40W0YlFrpiKK99XHpQ3H-sOdlzaG3xp8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
